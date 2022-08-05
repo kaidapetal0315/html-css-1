@@ -20,6 +20,14 @@ ul{
     padding: 0;
 }
 
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 /* header */
 header{
     background: #35424a;
@@ -59,13 +67,10 @@ header nav{
     margin-top: 10px;
 }
 
-header .current a{
-    color: #e8491d;
-}
-
 header a:hover{
-    color: #cccccc;
+    color: #e8491d;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* showcase */
@@ -130,6 +135,62 @@ header a:hover{
     width: 30%;
     text-align: center;
     padding: 10px;
+}
+/* sidebar */
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    height: 10px;
+}
+
+/* article */
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+.page-title{
+    text-align: justify;
+    color: #e8491d;
+    font-size: 25px ;
+}
+
+/* courses */
+
+#courses{
+    margin-top: 20px;
+}
+
+#courses .course{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#courses .text{
+    color: #ffffff;
+    background: #e8491d;
+
+}
+  
+.middle {
+transition: .5s ease;
+opacity: 0;
+}
+
+.course:hover .middle {
+opacity: 1;
+}
+
+#courses .title{
+    color: #e8491d;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 footer{
