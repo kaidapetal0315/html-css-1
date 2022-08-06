@@ -137,12 +137,20 @@ header a:hover{
     text-align: center;
     padding: 10px;
 }
+
+#person .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
 /* sidebar */
 
 aside#sidebar{
     float: right;
     width: 30%;
-    height: 10px;
+    margin-top: 10px;
 }
 
 /* article */
@@ -196,8 +204,77 @@ opacity: 1;
 
 footer{
     padding: 10px;
-    /* margin-top: 20px; */
     color: #ffffff;
     background: #e8491d;
     text-align: center;
+}
+
+/* media-query */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    #person .box,
+    article#main-col,
+    .main aside#sidebar,
+    #courses .title,
+    #courses .course{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase{
+        min-height: 350px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    #showcase p{
+        font-size: 30px;
+    }
+
+    .main .page-title{
+        text-align: center;
+    }
+
+    #newsletter h1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+    #courses .course .middle{
+        align-items: center;
+    }
+    #courses .course .text{
+        width: 200px;
+        margin: auto;
+    }
+
+    #courses .course img{
+        height: 150px;
+        width: 150px;
+    }
+
+    footer p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #courses .title{
+        font-size: 40px;
+    }
 }
