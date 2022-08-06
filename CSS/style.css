@@ -79,6 +79,7 @@ header a:hover{
     background:url('../img/background.jpg') no-repeat;
     text-align: center;
     color: #e8491d;
+    border-bottom: #e8491d 3px solid;
 }
 
 #showcase h1{
@@ -95,7 +96,7 @@ header a:hover{
 
 /* newsletter */
 #newsletter{
-    padding: 15px;
+    padding: 10px;
     color: #ffffff;
     background: #35424a;
 }
@@ -195,7 +196,7 @@ opacity: 1;
 
 footer{
     padding: 10px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: #ffffff;
     background: #e8491d;
     text-align: center;
